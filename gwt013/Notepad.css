@@ -1,0 +1,72 @@
+
+h1,h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px ;
+  text-align: center;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.gwt-Button {
+    font-weight: bold;
+	margin:5px !important;
+	padding :5px 15px !important;
+    }
+
+.gwt-Label {
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+    }
+    
+#main {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 50px 0 0 0;
+    width: 500px;
+    height: 200px;
+    border: 2px solid #AAA;
+    -moz-radius-border: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    }
+    
+#pad {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    width: 700px;
+    height: 300px;
+    border: 2px solid #AAA;
+    -moz-radius-border: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    }
+    
+#padMain {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    }
+    
+#status {
+    display: block;
+    text-align: center;
+    }
+    
+.buttonPanel {
+    padding-top: 50px;
+    }
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
